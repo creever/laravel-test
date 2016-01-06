@@ -51,7 +51,7 @@
     },
     "extra": {
         "heroku": {
-            "framework": "laravel",
+            "framework": "silex",
             "document-root": "public",
             "index-document": "index.php"
         }
