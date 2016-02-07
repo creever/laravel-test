@@ -8,6 +8,13 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*"
     },
+    "extra": {
+        "heroku": {
+            "framework": "silex",
+            "document-root": "public",
+            "index-document": "index.php"
+        }
+    },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",
